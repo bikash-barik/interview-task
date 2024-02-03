@@ -2,6 +2,10 @@
 
 export const HerosectionHeading = "Hotels, Merriot, in Dubai";
 export const HerosectionSubHeading = "Home >> Hotels and More";
+export const HerosectionSubHeadingGallery = "Home >> Gallery";
+export const HerosectionHeadingGallery = "Gallery";
+export const HerosectionHeadingAbout = "About Us";
+export const HerosectionSubHeadingAbout = "Home >> About US";
 
 export const HeroSectioncardData = [
   {

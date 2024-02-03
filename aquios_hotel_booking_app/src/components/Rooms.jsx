@@ -104,8 +104,15 @@ const Rooms = () => {
             <h2>{room.name}</h2>
             <a href="/">View More</a>
           </div>
+          <div className="view2">
+            <div className="distance">
+              {room.description}
+              <img src={room.icon} alt=""></img>
+              <p>5.9 KM</p>
+            </div>
+          </div>
           <span className="lorem">{room.description}</span>
-          <div className="distance">
+          <div className="distance" id="scrn">
             <img src={room.icon} alt=""></img>
             <p>5.9 KM</p>
           </div>

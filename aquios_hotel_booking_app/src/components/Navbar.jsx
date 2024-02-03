@@ -8,9 +8,9 @@ import { IoIosClose } from "react-icons/io";
 let navData = [
   { name: "Home", link: "/" },
   { name: "Tours", link: "/" },
-  { name: "Rooms & Suits", link: "/" },
-  { name: "Gallery", link: "/" },
-  { name: "About us", link: "/" },
+  { name: "Rooms & Suits", link: "/roomssuits" },
+  { name: "Gallery", link: "/Gallery" },
+  { name: "About us", link: "/aboutus" },
   { name: "Sign up", link: "/" },
 ];
 

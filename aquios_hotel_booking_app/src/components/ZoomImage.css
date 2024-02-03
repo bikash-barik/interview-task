@@ -1,0 +1,76 @@
+/* ZoomImage.css */
+
+.zoom-image-container {
+  position: relative;
+  overflow: hidden;
+  width: 350px; /* Set your desired width */
+  height: 350px; /* Set your desired height */
+  display: flex;
+  padding: 4%;
+  margin-left: 6%;
+}
+
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoom-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.text {
+  color: #fff;
+  font-size: 18px;
+  margin: 10px 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-wrapper:hover .zoom-image {
+  transform: scale(1.1);
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.image-wrapper:hover .text-overlay {
+  transform: translateY(0);
+}
+
+.image-wrapper:hover .text {
+  opacity: 1;
+}
+
+/* ImageGrid.css */
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3,  1fr);
+  gap: 2px; /* Adjust the gap as needed */
+}

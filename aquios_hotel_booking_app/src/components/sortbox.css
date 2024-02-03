@@ -88,4 +88,9 @@
     transform: rotate(45deg);
   }
 
+  @media (max-width : 600px) {
+    .sort-box-container{
+      display: none;
+    }
+  }
   
