@@ -2,6 +2,7 @@ import React from "react";
 import ZoomImage from "./ImageContentSection"; // Adjust the path accordingly
 import Room from "../assets/Room.png";
 import GalleryHead from "./GalleryHead";
+import Footer from "./Footer";
 
 
 const ImageGrid = () => {
@@ -30,6 +31,7 @@ const ImageGrid = () => {
           />
         ))}
       </div>
+      <Footer/>
     </>
   );
 };

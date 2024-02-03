@@ -4,6 +4,7 @@ import {
   HerosectionSubHeadingAbout,
 } from "../Textfiles/webiste-Content";
 import "./about.css";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -88,6 +89,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
