@@ -72,5 +72,23 @@
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3,  1fr);
-  gap: 2px; /* Adjust the gap as needed */
+  gap: -10vw; /* Adjust the gap as needed */
 }
+
+@media (max-width:600px) {
+  .zoom-image-container {
+    position: relative; 
+    overflow: hidden;
+    width: 40vw;
+    height: 20vh; 
+    padding: 3%;
+    margin-left: 2%;
+    margin-right: 100%;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw; /* Adjust the gap as needed */
+  }
+}
+

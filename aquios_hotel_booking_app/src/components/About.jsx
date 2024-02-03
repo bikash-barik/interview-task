@@ -3,6 +3,7 @@ import {
   HerosectionHeadingAbout,
   HerosectionSubHeadingAbout,
 } from "../Textfiles/webiste-Content";
+import "./about.css";
 
 const About = () => {
   return (
@@ -25,7 +26,7 @@ const About = () => {
               mine. I am so happy, dear.
             </p>
           </div>
-          <div className="child3">
+          <div className="child2">
             <p>
               When, while the lovely valley teems with vapour around me, the
               upper surface of the impenetrable foliage of my trees, and but a
@@ -50,39 +51,39 @@ const About = () => {
                 nulla pariatur.
               </p>
             </div>
-            <div className="feature2">
-              <img
-                src="https://gracious-panini-f06fc2.netlify.app/static/media/AboutUs2.72eb27c5.png"
-                alt=""
-              />
-              <div>
-                <h3>Relax Zone</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
-                </p>
-              </div>
-              <div className="feature3">
-                <img
-                  src="https://gracious-panini-f06fc2.netlify.app/static/media/AboutUs3.7568cde2.png"
-                  alt=""
-                />
-                <div>
-                  <h3>Luxury Bath</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
-                  </p>
-                </div>
-              </div>
+          </div>
+          <div className="feature2">
+            <div>
+              <h3>Relax Zone</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+            <img
+              src="https://gracious-panini-f06fc2.netlify.app/static/media/AboutUs2.72eb27c5.png"
+              alt=""
+            />
+          </div>
+          <div className="feature3">
+            <img
+              src="https://gracious-panini-f06fc2.netlify.app/static/media/AboutUs3.7568cde2.png"
+              alt=""
+            />
+            <div className="textt">
+              <h3>Luxury Bath</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
             </div>
           </div>
         </div>

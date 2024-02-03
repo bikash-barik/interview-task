@@ -1,13 +1,9 @@
 .box {
   display: flex;
-  /* justify-con  tent: flex-end; */
-  /* align-items: last baseline; */
   gap: 7px;
   position: relative;
   width: 70vw;
   margin-top: 40px;
-  /* margin-left: 2%; */
-  /* border-bottom: 1px solid #ccc; */ /* Removed separation line */
   padding-bottom: 20px; /* Add some space between the cards */
   margin-bottom: -90px;
 }
@@ -18,7 +14,7 @@
   display: flex;
   gap: 6px; /* Adjust the gap based on your preference */
   margin-right: 7px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .main-slider {
@@ -45,7 +41,7 @@
 
 .details-container {
   height: 100%;
-  width: 60vw;
+  width: 40vw;
   flex-grow: 10;
   max-width: 500px;
   margin-left: -110px;
@@ -162,7 +158,7 @@
   .button-2 {
     display: block;
     background-color: #e53e3e;
-    hover: #9b2c2c;
+    /* hover: #9b2c2c; */
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1.25rem;
